@@ -35,8 +35,8 @@ Estou constantemente procurando expandir minhas habilidades e, no momento, estou
 
 ### Links
 
-- URL da solução: [https://github.com/shufito/desafio_01_qr_code_frontend_mentor](https://github.com/shufito/desafio_04_card_produto)
-- URL do site ao vivo: [https://shufito.github.io/desafio_01_qr_code_frontend_mentor/](https://shufito.github.io/desafio_04_card_produto/)
+- URL da solução: [https://github.com/shufito/desafio_04_card_produto](https://github.com/shufito/desafio_04_card_produto)
+- URL do site ao vivo: [https://shufito.github.io/desafio_04_card_produto/](https://shufito.github.io/desafio_04_card_produto/)
 
 ## Meu processo
 
