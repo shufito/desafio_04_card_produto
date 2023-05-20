@@ -532,14 +532,6 @@ video {
   visibility: hidden;
 }
 
-.col-span-1{
-  grid-column: span 1 / span 1;
-}
-
-.col-span-2{
-  grid-column: span 2 / span 2;
-}
-
 .my-12{
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -573,10 +565,6 @@ video {
   width: 100%;
 }
 
-.w-\[38rem\]{
-  width: 38rem;
-}
-
 .flex-col{
   flex-direction: column;
 }
@@ -597,18 +585,14 @@ video {
   gap: 1rem;
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]){
+.space-y-3 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden{
   overflow: hidden;
-}
-
-.rounded-2xl{
-  border-radius: 1rem;
 }
 
 .rounded-lg{
@@ -632,11 +616,6 @@ video {
 
 .p-4{
   padding: 1rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .px-4{
@@ -735,10 +714,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:w-96{
-    width: 24rem;
-  }
-
   .sm\:w-\[30rem\]{
     width: 30rem;
   }
@@ -773,7 +748,14 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .md\:space-y-6 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
